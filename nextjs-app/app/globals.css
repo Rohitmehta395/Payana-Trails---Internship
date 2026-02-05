@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  /* Link the CSS variables from Next.js to Tailwind classes */
+  --font-display: var(--font-oswald);
+  --font-sans: var(--font-inter);
+}
+
+/* Ensure the background is always black to prevent white flashes */
+body {
+  background-color: black;
+  color: white;
+}
